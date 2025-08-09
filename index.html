@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Romantic Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-wrapper">
+    <div class="chat-container">
+      <!-- Header -->
+      <header class="chat-header">
+        <div class="profile">
+          <img src="https://i.ibb.co/CV6vPhs/profile.jpg" alt="User" />
+          <h2 style="color: black;">Pooja ❤️</h2>
+        </div>
+        <div class="status" style="color: black;">Online</div>
+      </header>
+
+      <!-- Messages -->
+      <div id="chat-box" class="chat-box">
+        <div class="message received">Hey Prem 💖</div>
+        <div class="message sent">Hey love ❤️</div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="chat-footer">
+        <input id="message-input" type="text" placeholder="Type here...." autocomplete="off" />
+        <button id="send-btn" type="button">💌</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- your script — defer ensures DOM is ready before script runs -->
+  <script src="script.js" defer></script>
+</body>
+</html>
