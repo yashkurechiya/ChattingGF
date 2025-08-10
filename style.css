@@ -134,7 +134,7 @@ body {
 /* Mobile Friendly */
 @media (max-width: 600px) {
   .chat-container {
-    height: 100vh;
+    height: screen;
     width: 100%;
     border-radius: 0;
   }
